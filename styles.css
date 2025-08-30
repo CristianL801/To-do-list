@@ -62,15 +62,23 @@ body {
 
 #task-list li {
     display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    flex: 1;
     background-color: #AED6F1; 
     border-radius: 10px;
     margin: 10px;
+    word-break: break-word;
+
+
 }
 
 #task-list li button {
+    flex-shrink: 0;
     margin-left: 70%;
+    width: 100px;
+    height: 30px;
     background-color: #EC7063; 
     border-radius: 20px;
 }
